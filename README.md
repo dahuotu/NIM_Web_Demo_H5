@@ -7,7 +7,13 @@ h5 demo的推出，使得云信SDK的开发者们可以更便捷的利用移动�
 - h5 demo 工程地址：[工程地址](https://github.com/netease-im/NIM_Web_Demo_H5)
 - ![demo示例](http://yx-web.nos.netease.com/webdoc/h5/docs/h5demo-example-1.jpg)
 - h5 demo 快速部署：从工程地址中下载源码，进入目录运行命令行"npm run server"，访问"http://127.0.0.1:2001/webdemo/h5/index.html"即可。
+## 特别说明
+本源码与官方源码基本一致，但做了如下调整。
+1、很多新人拿到代码后遇到很多问题，要么无法正常登录，要么报各种错误，该源码买有这个问题，只需要在config.js里修改appKey值再按照以下方式即可正常运行。
+2、该源码与官方源码的差异在于该源码已经做了自定义消息功能，官网的没有。
+具体的修改实现见该文章，您可以不用修改，直接拉取该源码即可：
 
+- https://www.jianshu.com/p/7a639f275dd7(https://www.jianshu.com/p/7a639f275dd7)
 ## 起步
 为了给不同接入程度的开发者都能更好的利用后h5 demo进行移动端开发，云信 WEB DEMO HTML5版本的工程也做了一些考虑与设计，利用VUE及其配套框架，为开发者们设计了以下几种借鉴模式：
 
